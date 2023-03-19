@@ -3,12 +3,20 @@
  */
 package systemdesign;
 
+import systemdesign.snakeandladder.service.SnakeAndLadderGame;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        App app = new App();
+        System.out.println(app.getGreeting());
+        app.playSnakeAndLadder();
+    }
+
+    private void playSnakeAndLadder() {
+        new SnakeAndLadderGame();
     }
 }
