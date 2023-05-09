@@ -36,5 +36,6 @@ public class SnakeAndLadderGame {
         for (int index = 0; index < noOfPlayers; index++) {
             setPlayer(sc.next());
         }
+        sc.close();
     }
 }
