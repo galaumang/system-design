@@ -30,4 +30,4 @@ The preferred way to contribute is to fork the [`system-design`](https://github.
         # Remote push to GitHub
         $ git push -u origin my-feature
 
-5. Finally, go to the web page of your fork of the `system-design` repo and click 'Pull Request' to send your changes for review.
+5. Finally, go to the web page of your fork of the `system-design` repo and click 'Pull Request' to send your changes for review. Please refer to github documentation on [pull requests](https://help.github.com/articles/using-pull-requests/)
